@@ -1,0 +1,21 @@
+.story {
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 100px;
+    background-image: url('https://reactnative.dev/img/tiny_logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: dashed;
+    border: floralwhite dashed 2px;
+    animation-name: circle;
+    animation-duration: 4s;
+}
+
+/* The animation code */
+@keyframes circle {
+    from {border: floralwhite dashed 2px;}
+    to {border: floralwhite solid 2px;;}
+  }
+  
+  
